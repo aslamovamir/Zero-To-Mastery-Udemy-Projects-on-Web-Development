@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Payment</title>
+	</head>
+	<body>
+		<h1>Payment</h1>
+		<h2>Please fill out the form below to complete the payment of your current cart.</h2>
+		<h4>Enter <a href="index.html">here</a> to go to the shopping cart.</h4>
+		<hr>
+		<br>
+		<br>
+		<form>
+			<label for="payMethod"><strong>Choose payment method:</strong></label>
+			<div id="payMethod">
+			<input type="radio" name="pay_method" id="PayPal" value="PayPal">
+			<label for="PayPal">PayPal</label><br>
+			<input type="radio" name="pay_method" id="credit/debit" value="credit/debit">
+			<label for="credit/debit">Credit/Debit Card</label>
+			</div>
+			<br>
+
+			<br>
+			<label for="first_name"><strong>First name: </strong></label>
+			<input type="text" name="fname" id="fname"><br><br>
+			<label for="last_name"><strong>Last name: </strong></label>
+			<input type="text" name="lname" id="lname"><br>
+			<br>
+
+			<br>
+			<label for="card_number"><strong>Enter card number:</strong></label>
+			<input type="number" name="card_number" id="card_number">
+			<br>
+
+			<br>
+			<label for="expiration_date"><strong>Expiration Date</strong>
+			<input type="month" name="expiration_date" id="expiration_date">
+			<br>
+
+			<br>
+			<label for="email"><strong>Email</strong>
+			<input type="email" name="email" id="email">
+			<br>
+
+		</form>
+	</body>
+</html>
